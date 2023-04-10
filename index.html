@@ -11,7 +11,7 @@
 
     <nav class="same-line">
         <div class="topnav left">
-            <a href="#home">YOUR NAME</a>
+            <a href="#home">Jason Werneth</a>
         </div>
         <div class="topnav right">
             <a href="#home">Home</a>
@@ -26,11 +26,11 @@
     <section id="home">
 
         <div class="same-line-panel">
-            <img id="image" src=profile.png>
+            <img id="image" src=lipfp.jpg>
             <div class="center">
-                <h1>YOUR NAME</h1>
+                <h1>Jason Werneth</h1>
                 <h2>Undergraduate Student</h2>
-                <h3>Majors, Minors</h3>
+                <h3>Computer Science Major</h3>
             </div>
 
         </div>
@@ -42,7 +42,11 @@
         <div class="same-line-panel reveal">
             <img id="logo" src=logo.png>
             <div class="panel">
-                <p>Put your Bio Here</p>
+                <p>I'm Jason Werneth, a sophomore computer science major. Since I first started
+                    coding during my junior year of high school, I've been enjoying learning new
+                    computer science concepts. Outside of computer science, I love running and
+                    climbing!
+                </p>
             </div>
 
         </div>
@@ -52,16 +56,35 @@
             <h1 class="section-header">Projects</h1>
             <div class="row">
                 <div class="column reveal" style="background-color:#A4969B;">
-                    <h2>Project 1 Title</h2>
-                    <p>Description of Project 1...</p>
+                    <h2>Custom Chess</h2>
+                    <p> I used React to create a unique chess game with options to enable/disable 
+                        castling and check/checkmate detection (it would not be allowed for a piece
+                        that is protecting the king from being in check to move out of the
+                        way, in addition to similar restrictions). Users can change the ways that
+                        pieces can move (for example, a user could make a bishop move 3 squares
+                        forward while only moving 1 square sideways, or could make a rook that can’t
+                        move to the right unless it goes diagonal.)
+                        </p>
                 </div>
                 <div class="column reveal" style="background-color:#BFB5B9;">
-                    <h2>Project 2 Title</h2>
-                    <p>Description of Project 2...</p>
+                    <h2>Osort</h2>
+                    <p> I used the osu API with Python to get osu players’ ”top plays” given their 
+                        osu ID and obtain specified details about each ”play.” I also sorted plays 
+                        by selected criteria (some property of the map/score, such as a map’s ”star
+                        rating”) using python. Additionally, I used Flask to process user inputs 
+                        and put the results into a leader board format.</p>
                 </div>
                 <div class="column reveal" style="background-color:#D1CACD;">
-                    <h2>Project 3 Title</h2>
-                    <p>Description of Project 3...</p>
+                    <h2>Sliding Midpoint KD-Tree</h2>
+                    <p> I created a version of a 2 dimensional kd-tree (a binary search tree that
+                        stores 2-dimensional points) that uses a sliding-midpoint rule to partition
+                        the points. The tree stores the points in a way such that they are efficient 
+                        to find by dividing the box into cells, which it attempts to make as square
+                        as possible by starting the divide at the midpoint of the cell, and then if 
+                        all the point are on one side, shifting to the closest point to the midpoint.
+                        This is implemented as an extended binary tree, meaning it has InternalNodes
+                        that each have 2 children and ExternalNodes with no children.
+                    </p>
                 </div>
             </div>
         </div>
@@ -69,14 +92,14 @@
 </body>
 <footer>
     <div class="leftFooter">
-        YOUREMAIL@EMAIL.COM
+        jason60035@gmail.com
     </div>
     <div class="rightFooter">
-        <a href="https://www.google.com/" class="fa fa-github" style="font-size:36px"></a>
+        <a href="https://github.com/jwernethUMD" class="fa fa-github" style="font-size:36px"></a>
 
     </div>
     <div class="rightFooterr">
-        <a href="https://www.google.com/" class="fa fa-linkedin" style="font-size:36px"></a>
+        <a href="https://www.linkedin.com/in/jason-werneth-28780b238/" class="fa fa-linkedin" style="font-size:36px"></a>
 
     </div>
 </footer>
