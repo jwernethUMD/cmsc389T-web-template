@@ -1,4 +1,4 @@
-name: Update workflow
+name: Update Workflow
 on:
   workflow_dispatch:
 jobs:
