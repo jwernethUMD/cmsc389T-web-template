@@ -1,4 +1,4 @@
-name: deployment workflow
+name: Update workflow
 on:
   workflow_dispatch:
 jobs:
